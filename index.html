@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="assets/images/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="assets/css/naviBar.css">
+  <title>BEEFBLOCK</title>
+</head>
+<body>
+  <main>
+    <section class="landing">
+      <!-- navigation bar -->
+      <nav>
+        <div > 
+          <a href='#slideshow' class='logo'>BEEFBLOCK</a>
+        </div>
+
+        <ul class='navi-links'>
+          <li>
+            <a href='#home'> Home </a>
+          </li>
+          <li>
+            <a href='#about'> About </a>
+          </li>
+          <li>
+            <a href='#our-team'> Our Team </a>
+          </li>
+          <li>
+            <a href='#our-services'> Our Services </a>
+          </li>
+          <li>
+            <a href='#blog'> Contact Us </a>
+          </li>
+        </ul>
+      <!-- mobile responsive  -->
+        <div class="burger"> 
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </nav>
+      
+
+      <div class='slideshow' id="slideshow" style="background-image: url('assets/images/image-1.jpg'); background-size: 100% 100vh;background-repeat: no-repeat;">
+        <div class="slideshow-title">
+          <img src="assets/images/livestock-1.png" style="height: 15rem;">
+          <h4>BEEFBLOCK</h4>
+        </div>
+      </div>
+
+      <div class='home' id="home" style="background-image: url('assets/images/home-background.jpg'); background-size: 100% 100vh;background-repeat: no-repeat;">
+        <div class="home-content">
+          <div class="home-left">
+            <h1>GREATER QUALITY</h1>
+            <div class="home-description"></div>
+            <h4>Building a solution on a Blockchain platform empowers
+              consumers to verify and check the authenticity of products
+              in-store. Creating greater consumer confidence and trust.</h4>
+
+            <p><b>Current Model</b><br>
+              Current labelling practices share product
+              information with the consumer, 
+              <br> such as:
+              <br>• Product description
+              <br>• Best before dates
+              <br>• Origin of the beef product
+              <br>• Quality standards
+            <br> <br>
+            <b>Blockchain Model</b> <br>
+            QR codes located on product packaging give the consumer
+            access to the information stored on the Blockchain through an
+            augmented reality experience. This provides consumers with
+            product information that aligns with evolving purchase drivers
+            and consumer trends.</p>  
+
+            <a href="#marketing-video" class="meet-team-button">Who We Are?</a>
+          </div>
+          <div class="home-right">
+            <img src="assets/images/pexels-helia-ghaharian-17949898.jpg" alt="My Team Image" class="shadow-box">
+          </div>
+          
+        </div>
+      </div>
+
+      <div class='about' id='about' style="background-image: url('assets/images/pexels-jacob-moseholt-4015401.jpg'); background-size: 100% ;background-repeat: no-repeat;">
+        <div class="about-content" >
+          <div class="about-title">
+            <h3>What is BeefBlock?</h3>
+          </div>
+          <div class="tab-buttons">
+            <div class="tab">
+              <button class="tablinks" onclick="openCity(event, 'ThePlatform')" id="defaultOpen">Who We Are</button>
+              <button class="tablinks" onclick="openCity(event, 'SupplyChain')">What we do</button>
+              <button class="tablinks" onclick="openCity(event, 'Experience')">Our mission</button>
+            </div>
+          </div>
+          <hr class="header-line">
+        
+          <div class="tab-info">
+            <div id="ThePlatform" class="tabcontent">
+              <p>
+                BeefBlock is a dedicated platform committed to ensuring that consumers have
+              access to the highest quality beef by leveraging the power of blockchain
+              technology for food traceability.
+              BeefBlock's key feature is a user-friendly platform that allows consumers to
+              verify the quality of the beef they purchase. By simply scanning a QR code
+              printed on the beef product, consumers can access a wealth of information
+              about the beef they are considering. This QR code is a gateway to a
+              comprehensive database that encompasses data recorded at every critical stage,
+              starting from the farm and continuing all the way to the point of sale which
+              includes the beef's origin, the farm it came from, its processing and handling,
+              safety measures adhered to, and even feedback from previous buyers. This
+              access to detailed information allows consumers to make informed decisions,
+              instilling a sense of confidence and trust in the product’s quality, safety, and
+              dependability.
+              </p>
+            </div>
+            
+            <div id="SupplyChain" class="tabcontent">
+              <p>
+                BeefBlock is a platform that uses blockchain technology to track the food
+                traceability of beef. The physical flow layer is designed for the physical food
+                supply chain, tracing food goods from producer to consumer. The second flow
+                layer is a digital record system where data from the physical flow layer is
+                recorded simultaneously with other digital technologies, such as RFID, QR codes,
+                and other sensors. The third flow layer is a digital blockchain infrastructure
+                network where, using a smart contract, the information recorded in the second
+                flow layer is confirmed by all participating bodies/parties using a consensus
+                method, creating a virtual data block at every point in the supply chain. This flow
+                layer, comprising a chain of digital data blocks, follows the physical flow layer. It
+                is an immutable record-keeping platform, as attempting to hack or alter
+                information changes the hash value of that specific block and prevents the
+                changed value from entering the blockchain.
+              </p>
+            </div>
+            
+            <div id="Experience" class="tabcontent">
+              <p>
+                Our mission is to revolutionize the beef industry by providing an innovative
+                solution that enables consumers to trace the journey of their beef products from
+                farm to table. We recognize the importance of transparency and reliability in the
+                food supply chain, and we strive to address these concerns through cutting-edge
+                technology.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+      <div class='marketing-video' id='marketing-video' style="background-image: url('assets/images/blockchain-3055701.jpg'); background-size: 100% 100vh;background-repeat: no-repeat;">
+        <div class="marketing-content" >
+          <div class="video-title">
+            <h4>Who We Are?</h4>
+          </div>
+          <div class="video-box">
+            <embed src="https://www.youtube.com/embed/G3E5fiUTcpQ" class="video-box">
+            </embed>
+          </div>
+        </div>
+      </div>
+
+      <div class='our-team' id='our-team' style="background-image: url('assets/images/our-team-4.jpg'); background-size: 100% 100vh;background-repeat: no-repeat;">
+        <div class="team-content" >
+          <div class="team-title">
+            <h4>Our Team</h4>
+          </div>
+          <div class="team-box">
+            <div class="profile-picture">
+              <img src="assets/images/profile-3.png" alt="My Team Image" class="shadow-box">
+            </div>
+            <div class="profile-info" >
+              <h4>Preetham Hanumantharaya Roy</h4>
+              <p>Chief Executive Officer - Beef Block</p>
+              <br>
+              <p align="justify">Preetham Hanumantharaya Roy, an accomplished leader in the corporate world, serves as
+                the CEO of our organization with distinction. With a remarkable career spanning over 3
+                years, Preetham has consistently demonstrated exceptional leadership and strategic
+                acumen. His extensive expertise encompasses various sectors, from finance to technology,
+                and he has successfully steered our company through periods of growth and innovation. His
+                commitment to excellence and forward-thinking approach make him a driving force behind
+                our organization's achievements.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class='our-team' id='our-team' style="background-image: url('assets/images/our-team-4.jpg'); background-size: 100% 100vh;background-repeat: no-repeat;">
+        <div class="team-content" >
+          <div class="team-title">
+            <h4>Our Team</h4>
+          </div>
+          <div class="team-box">
+            <div class="profile-picture">
+              <img src="assets/images/profile-1.jpg" alt="My Team Image" class="shadow-box">
+            </div>
+            <div class="profile-info" >
+              <h4>Shehani Wijayawardena</h4>
+              <p>Chief Technical Officer – Beef Block</p>
+              <br>
+              <p align="justify">Shehani , a highly experienced professional with over 2 years in the Information Technology
+                and Telecommunications sector, brings a wealth of knowledge to her role as Chief Technical
+                Officer (CTO). Shehani combines practical expertise with a strong academic foundation in
+                Computer Science. As CTO, she spearheads the development and implementation of
+                innovative tech solutions, prioritizes data security, and optimizes IT infrastructure. Shehani
+                is not only a visionary tech leader but also an advocate for diversity and inclusion in the
+                industry. Her strategic thinking and problem-solving skills position our organization for
+                continued growth and technological excellence in the digital era.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class='our-team' id='our-team' style="background-image: url('assets/images/our-team-4.jpg'); background-size: 100% 100vh;background-repeat: no-repeat;">
+        <div class="team-content" >
+          <div class="team-title">
+            <h4>Our Team</h4>
+          </div>
+          <div class="team-box">
+            <div class="profile-picture">
+              <img src="assets/images/profile-2.jpeg" alt="My Team Image" class="shadow-box">
+            </div>
+            <div class="profile-info" >
+              <h4>Shalomi Gurusinghe</h4>
+              <p>Director – Beef Block</p>
+              <br>
+              <p align="justify">Shalomi possesses more than 8 years of experience in the field of Human Resources and
+                Logistics. Over the past 3 years, she has been actively engaged in the Beef Block project,
+                gaining extensive expertise in global supply chain activities. Her firsthand visits to countries
+                such as China, Sri Lanka, and the USA have equipped her with valuable insights, enabling her
+                to comprehensively grasp the requirements and expectations of both consumers and
+                regulators.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class='our-team' id='our-team' style="background-image: url('assets/images/our-team-4.jpg'); background-size: 100% 100vh;background-repeat: no-repeat;">
+        <div class="team-content" >
+          <div class="team-title">
+            <h4>Our Team</h4>
+          </div>
+          <div class="team-box">
+            <div class="profile-picture">
+              <img src="assets/images/profile-4.png" alt="My Team Image" class="shadow-box">
+            </div>
+            <div class="profile-info" >
+              <h4>Vedhanth Diwakar</h4>
+              <p>Research Analyst - Beef Block</p>
+              <br>
+              <p align="justify">Vedhanth has been gaining hands on experience with logistics since the last 2 years. He has
+                worked for 2 years in India for a logistical company called EKART. He is now pursuing a
+                master’s degree in Business Information and Logistics Management to enhance his skills
+                further. He is passionate about managing logistics accurately and delivering the best to the
+                customers.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+      <div class='our-services' id='our-services' style="background-image: url('assets/images/our-services.jpg'); background-size: 100% 100vh;background-repeat: no-repeat;">
+        <div class="our-services-content">
+          <h2>Our Services</h2>
+          <div class="our-services-tiles">
+            <div class="our-services-tiles-1">
+              <img src="assets/images/bitcoin.png" alt="">
+              <h4>Traceability and Provenance Tracking</h4>
+              <p  align="justify" ><b>Farm-to-Fork Traceability:</b> The system can provide a detailed record of
+                each beef product's journey from the farm to the consumer's plate. This
+                information includes the origin of the beef, the conditions in which it was
+                raised, its processing and distribution history, and more.</p>
+            </div>
+            <div class="our-services-tiles-2" x>
+              <img src="assets/images/compiler.png" alt="">
+              <h4>Quality Assurance and Certification</h4>
+              <p  align="justify" > <b>Quality Parameters:</b> The system can record and verify various quality
+                parameters, including temperature, storage conditions, and handling practices
+                at each stage of the supply chain. This ensures that beef products meet the
+                desired quality standards.
+                <br>
+                <br>
+                <b>Certification Compliance:</b>  It can help beef producers and suppliers adhere to
+                food safety certifications and regulations by providing a transparent and
+                verifiable record of compliance.</p>
+            </div>  
+
+            <div class="our-services-tiles-3" >
+              <img src="assets/images/steak.png" alt="">
+              <h4>Data Transparency and Accessibility</h4>
+              <p  align="justify"><b>Consumer Information: </b> The consumers can access comprehensive information
+                about the beef they purchase, including its source, quality, safety
+                certifications, and any relevant sustainability practices. This promotes
+                transparency and builds trust.
+                <br>
+                <br>
+                <b>Supplier Information:</b>  Retailers, distributors, and other stakeholders can
+                access detailed information about the beef they are sourcing, enabling them to
+                make informed decisions and ensure product quality.</p>
+             </div>
+            <div class="our-services-tiles-4" align="justify">
+              <img src="assets/images/technical-support.png" alt="">
+              <h4>Smart Contract and Payment Integration</h4>
+              <p  align="justify" ><b>Streamlined Transactions:</b>  The system can include smart contracts that
+                automate payment processes when predefined conditions are met. This ensures
+                prompt and accurate payment to beef producers, reducing delays and disputes.
+                <br>
+                <br>
+                <b>Payment Traceability: </b> The blockchain's transparency allows all parties
+                involved to track and verify payments, promoting fair compensation
+                throughout the supply chain..</p>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+
+      <div class='blog' id='blog' style="background-image: url('assets/images/our-team-2.jpg'); background-size: 100% 100vh;background-repeat: no-repeat;">
+       <h3>Contact Us</h3>
+      <div class="contactus-container">
+        <form action="#">
+          <h3>CONTACT US FOR FURTHER INFORMATION ABOUT BEEFBLOCK</h3>
+          <input type="text" id="fname" name="firstname" class="input-Fields" placeholder="Name">
+
+          <input type="email" id="email" name="email" class="input-Fields" placeholder="Email">
+      
+          <input type="text" id="number" name="number" class="input-Fields" placeholder="Phone Number">
+
+          <textarea id="subject" name="subject" placeholder="Message" class="input-Fields" style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit" class="contactus-button">
+        </form>
+      </div>
+      </div>
+    </section>
+  </main>
+
+
+  <!-- intro slider -->
+    <div class="intro">
+    <div class="intro-text">
+      <h1 class="hide">
+        <span class="text"><img src="assets/images/livestock-2.png" alt=""></span>
+      </h1>
+      <!-- <h1 class="hide">
+        <span class="text"> Titile<img src="assets/images/cool.png" alt="" class="cool-emoji" > </span>
+      </h1> -->
+    </div>
+  </div>
+  <div class="slider"></div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js" integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
